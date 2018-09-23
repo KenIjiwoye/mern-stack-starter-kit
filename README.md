@@ -15,3 +15,11 @@ Concurrently is installed to help with running multiple scripts:
 Using yarn
 ` yarn dev `
 
+### Getting Started
+
+Clone the repo and do:
+`yarn install`
+
+Install dotenv and Create an .env and set your mongodb uri as "DB_HOST"
+
+Should be good to go!
