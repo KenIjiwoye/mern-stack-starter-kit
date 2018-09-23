@@ -1,0 +1,29 @@
+{
+  "name": "mern-stack-starter",
+  "version": "0.0.0",
+  "author": "Kenyada Ijiwoye",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "nodemon ./bin/www",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"yarn server\" \" yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "express": "~4.16.0",
+    "express-promise-router": "^3.0.3",
+    "mongoose": "^5.2.17",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "proxy": "http://localhost:4000"
+}
