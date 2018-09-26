@@ -8,7 +8,10 @@
     "start": "node ./bin/www",
     "server": "nodemon ./bin/www",
     "client": "cd client && yarn start",
-    "dev": "concurrently \"yarn server\" \" yarn client\""
+    "mobile": " cd mobileClient && expo start",
+    "client dev": "concurrently \"yarn server\" \" yarn client\"",
+    "mobile dev": "concurrently \"yarn server\" \" yarn mobile\"",
+    "dev all": "concurrently \"yarn server\" \" yarn client\"\"yarn mobile\""
   },
   "dependencies": {
     "body-parser": "^1.18.3",
